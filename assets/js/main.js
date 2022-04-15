@@ -100,3 +100,10 @@ $(document).ready(function() {
         loop: true
     });
 });
+
+// Aos init
+
+AOS.init({
+    duration: 2000,
+    once: true,
+  });
