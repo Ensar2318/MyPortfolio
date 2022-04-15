@@ -106,6 +106,7 @@ section .section-title h2::after {
 }
 
 #header {
+  overflow: auto;
   position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;

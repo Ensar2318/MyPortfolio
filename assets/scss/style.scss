@@ -44,6 +44,7 @@ section {
 # Mobile Nav Toggle
 --------------------------------------------------------------*/
 .mobile-nav-toggle {
+    
     position: fixed;
     top: 10px;
     right: 20px;
@@ -73,6 +74,7 @@ section {
         background-color: white;
         border-right: 2px solid rgba(128, 128, 128, 0.1);
     }
+    overflow: auto;
     position: fixed;
     display: flex;
     align-items: center;
