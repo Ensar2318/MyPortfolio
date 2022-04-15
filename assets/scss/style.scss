@@ -74,6 +74,7 @@ section {
         background-color: white;
         border-right: 2px solid rgba(128, 128, 128, 0.1);
     }
+    
     overflow: auto;
     position: fixed;
     display: flex;
@@ -101,8 +102,8 @@ section {
                     @include maxlg {
                         max-width: 300px;
                     }
-                    @media(max-height:380px){
-                        height: 34px;
+                    @media(max-height:400px){
+                        height: 40px;
                     }
                     overflow: hidden;
                     background-color: #f2f3f5;

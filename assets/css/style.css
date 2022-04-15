@@ -173,9 +173,9 @@ section .section-title h2::after {
   }
 }
 
-@media (max-height: 380px) {
+@media (max-height: 400px) {
   #header #navbar ol li a {
-    height: 34px;
+    height: 40px;
   }
 }
 
