@@ -101,6 +101,9 @@ section {
                     @include maxlg {
                         max-width: 300px;
                     }
+                    @media(max-height:380px){
+                        height: 34px;
+                    }
                     overflow: hidden;
                     background-color: #f2f3f5;
                     color: #45505b;
