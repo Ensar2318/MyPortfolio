@@ -23,7 +23,7 @@ $(window).scroll(function() {
     $("section").each(function(index, section) {
         // element == this
         const sectionTop = section.offsetTop;
-        if (pageYOffset >= sectionTop - 60) {
+        if (pageYOffset >= sectionTop - 260) {
             current = $(section).attr("id");
         }
     });
